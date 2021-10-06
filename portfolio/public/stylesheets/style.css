@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.a{
+  color: #0b1;
+}
+/************Navigation CSS*************/
+.navbar{
+  background-color: #000;
+width: 25%;
+margin-left: -2.5%;
+
+height: 100%;
+}
+body{
+  text-align: center;
+}
