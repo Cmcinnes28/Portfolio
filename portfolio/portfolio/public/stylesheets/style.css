@@ -1,0 +1,126 @@
+body {
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/************Navigation CSS*************/
+
+/*sets all items to top of page and background colour*/
+.navbar{
+  vertical-align: top;
+  background-color: #333;
+  border-bottom-style: solid;
+  color: #111;
+}
+/*positions the header to fill the top and sides properly*/
+header{
+  margin-left:-3%;
+  margin-top:-3%;
+  width:105.5%;
+}
+#HeaderText{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 50px;
+  overflow: hidden;
+  
+}
+#HeaderText li{
+  float:left;
+}
+.pagelinks{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:15px 60px 15px 60px;
+  text-decoration: none;
+}
+.pagelinks:hover{
+  background-color: #111;
+  color: white;
+  border-radius: 15px;
+  transition-duration: 1s;
+}
+#Thumbnail{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 50px;
+  overflow: hidden;
+}
+#Thumbnail li{
+  float:right
+}
+#Thumbnail :hover{
+  opacity: 80%;
+  transition-duration: 1s;
+}
+.thumbnailsgit{
+width: 75px;
+height:75px;
+}
+.thumbnailslink{
+  width: 65px;
+  height:65px;
+  margin-top: 10%;
+  }
+
+
+html{
+  height:100%
+}
+/*set background image properties*/
+body{
+  background-image: url("../images/backgroundMain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  background-color: #6e7273;
+  height:100%;
+}
+
+/*individual pages css*/
+.pageBody{
+  position: absolute;
+}
+/*Home Page*/
+.profile{
+  width: 30%;
+  height:25%;
+  border-radius: 50px;
+  float:left;
+  margin-left: 200px;
+margin-right: 200px;
+}
+#quickAbout{
+  width: 75%;
+  margin-top: 150px;
+  font-size:1.2em;
+}
+
+/*About Page*/
+#carousel1{
+  width:1024px;
+    height: 100%;
+    margin-left: 25%;
+}
+#caroImage{
+width: 1024px;
+height:576px;
+}
+/**Projects**/
+#projectcontainer{
+ text-align: center;
+ padding:20px;
+}
+.card{
+  display:inline-block;
+  color: #FFF;
+  background-color: #333;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+
