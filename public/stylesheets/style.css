@@ -97,8 +97,6 @@ margin-right: 200px;
   font-size:1.2em;
   
 }
-
-
 /*About Page*/
 .aboutDiv{
   padding:30px;
@@ -154,6 +152,23 @@ height:350px;
 .card h5{
   padding:10px;
 }
+/*Contact*/
 
-
+.formItem{
+  display: block;
+  text-align: center;
+}
+input{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+textarea{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+form{
+ margin:auto;
+}
 
