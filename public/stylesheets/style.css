@@ -13,6 +13,21 @@ body {
   border-bottom-style: solid;
   color: #111;
 }
+/*Set Footer CSS*/
+footer{
+  position: fixed;
+  bottom: 0;
+  margin-left:-3%;
+  margin-top:-3%;
+  width:105.5%;
+  background-color: #333;
+  border-top-style: solid;
+  color: #111;
+}
+footer p{
+  color:#FFF;
+  padding: 15px;
+}
 /*positions the header to fill the top and sides properly*/
 header{
   margin-left:-3%;
@@ -151,6 +166,9 @@ height:350px;
 }
 .card h5{
   padding:10px;
+}
+#contractbtn{
+visibility:hidden;
 }
 /*Contact*/
 
