@@ -32,7 +32,7 @@ footer p{
 header{
   margin-left:-3%;
   margin-top:-3%;
-  width:105.5%;
+  width:105.8%;
 }
 #HeaderText{
   list-style-type: none;
@@ -57,6 +57,7 @@ header{
   border-radius: 15px;
   transition-duration: 1s;
 }
+/*Thumbnail Link code (LinkedIn and Github)*/
 #Thumbnail{
   list-style-type: none;
   margin: 0;
@@ -79,9 +80,6 @@ height:75px;
   height:65px;
   margin-top: 10%;
   }
-html{
-  height:100%
-}
 /*set background image properties*/
 body{
   background-image: url("../images/backgroundMain.jpg");
@@ -90,7 +88,7 @@ body{
   text-align: center;
   color: white;
   background-color: #6e7273;
-  height:100%;
+  width: 100%;
 }
 
 /*individual pages css*/
@@ -139,18 +137,20 @@ display: inline-block
   border-radius: 50px;
 }
 #carousel1{
-  width:500px;
+  width:30%;
     height: 100%;
     display: inline-block;
     margin-right: 100%;
     margin-left: 200px;    
 }
 .carousel-item h5{
-  background-color: #000;   
+  background-color: #000;
+  font-size: 100%;  
 }
 #caroImage{
-width: 650px;
-height:350px;
+
+width: 100%;
+height:100%;
 }
 /**Projects**/
 #projectcontainer{
