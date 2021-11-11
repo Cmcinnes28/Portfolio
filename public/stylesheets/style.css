@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow:hidden
 }
 
 
@@ -88,7 +89,7 @@ body{
   text-align: center;
   color: white;
   background-color: #6e7273;
-  width: 100%;
+
 }
 
 /*individual pages css*/
@@ -137,7 +138,7 @@ display: inline-block
   border-radius: 50px;
 }
 #carousel1{
-  width:30%;
+    width:30%;
     height: 100%;
     display: inline-block;
     margin-right: 100%;

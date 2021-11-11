@@ -1,18 +1,20 @@
+
 <h1>Contact</h1>
 <div class="container" id="formSubmit">
-  <!-- WORK IN PROGRESS FORM SUBMIT TO EMAIL
-  <form action="Action.js">
+  <!-- WORK IN PROGRESS FORM SUBMIT TO EMAIL-->
+  <form>
 
     <label class="formItem" for="name">Name</label>
-    <input class="formItem" type="text" id="name" name="fullname" placeholder="Your name..">
+    <input class="formItem" type="text" id="name" name="fullname" placeholder="Your First and Last Name">
 
-    <label class="formItem" for="email">Email Address</label>
-    <input class="formItem" type="text" id="email" name="emailaddress" placeholder="cam123@gmail.com">
+    <label class="formItem" for="email">Email</label>
+    <input class="formItem" type="email" id="email" name="email" placeholder="cam123@gmail.com">
 
-    <label class="formItem" for="subject">Subject</label>
-    <textarea class="formItem" id="subject" name="subject" placeholder="Elaborate on your question or project Idea" style="height:200px"></textarea>
+    <label class="formItem" for="detail">Details</label>
+    <textarea class="formItem" id="detail" name="detail" placeholder="Elaborate on your question or comment" style="height:200px"></textarea>
 
-    <input class="formItem" type="submit" value="Submit">
   </form>
-  -->
+
+  <button class="btn btn-dark" onclick="sendMail();">Send</button>
+  
 </div>
