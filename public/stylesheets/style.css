@@ -5,12 +5,19 @@ body {
   overflow-x: hidden;
 }
 h1{
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 100px;
   padding:20px
 }
 
 
 /************Navigation CSS*************/
-
+nav{
+  position: fixed;
+  top: 0px;
+  left: -12px;
+  right:-12px;
+}
 /*sets all items to top of page and background colour*/
 .navbar{
   background-image: url("../images/backgroundMain.jpg");
@@ -28,9 +35,9 @@ footer{
   background-size: cover;
   position: fixed;
   bottom: 0;
-  margin-left:-3%;
-  margin-top:-3%;
-  width:105.5%;
+  left: -12px;
+  right:-12px;
+
   border-top-style: solid;
   color: #FFF;
 }
@@ -40,10 +47,10 @@ footer p{
 }
 /*positions the header to fill the top and sides properly*/
 #header{
-  font-family: 'Fjalla One',sans-serif;
   margin-left:-3.4%;
   margin-top:-3%;
   width:106.8%;
+
 }
 #HeaderText{
   list-style-type: none;
@@ -55,10 +62,11 @@ footer p{
   float:left;
 }
 .pagelinks{
+  font-size: 12px;
   display: inline-block;
   color: white;
   text-align: center;
-  padding:15px 60px 15px 60px;
+  padding:5px 60px 5px 60px;
   text-decoration: none;
   opacity: 1;
 }
@@ -84,12 +92,12 @@ footer p{
   transition-duration: 1s;
 }
 .thumbnailsgit{
-width: 75px;
-height:75px;
+width: 50px;
+height:50px;
 }
 .thumbnailslink{
-  width: 65px;
-  height:65px;
+  width: 45px;
+  height:45px;
   margin-top: 10%;
   }
 /*set background image properties*/
