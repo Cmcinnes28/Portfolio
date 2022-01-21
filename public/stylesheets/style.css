@@ -1,7 +1,7 @@
 /**********CSS for all*********/
 body {
   padding: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   overflow-x: hidden;
 }
 h1{
@@ -40,6 +40,7 @@ footer p{
 }
 /*positions the header to fill the top and sides properly*/
 #header{
+  font-family: 'Fjalla One',sans-serif;
   margin-left:-3.4%;
   margin-top:-3%;
   width:106.8%;
@@ -49,7 +50,6 @@ footer p{
   margin: 0;
   padding-left: 50px;
   overflow: hidden;
-  
 }
 #HeaderText li{
   float:left;
@@ -120,6 +120,7 @@ body{
   padding: 10px;
 }
 #quickAboutContent{
+  font-family: 'Fjalla One',sans-serif;
   margin-right: 25%;
 }
 /*About Page*/
