@@ -46,12 +46,7 @@ footer p{
   padding: 15px;
 }
 /*positions the header to fill the top and sides properly*/
-#header{
-  margin-left:-3.4%;
-  margin-top:-3%;
-  width:106.8%;
 
-}
 #HeaderText{
   list-style-type: none;
   margin: 0;
