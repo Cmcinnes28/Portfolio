@@ -1,24 +1,28 @@
 /**********CSS for all*********/
-body {
-  padding: 50px;
+/*set background image properties*/
+body{
+  text-align: center;
+  color: black;
+  background-color: #FFF;
   font-family: Verdana, Tahoma, sans-serif;
   overflow-x: hidden;
 }
 h1{
   font-family: 'Fjalla One',sans-serif;
-  font-size: 100px;
-  padding:20px
+  font-size: 5vw;
+  padding:20px;
+  letter-spacing: 10px;
 }
+
 
 
 /************Navigation CSS*************/
 nav{
-  position: fixed;
-  top: 0px;
-  left: -12px;
-  right:-12px;
+  position:relative;
+  width: 100%;
+  
 }
-/*sets all items to top of page and background colour*/
+
 .navbar{
   background-image: url("../images/backgroundMain.jpg");
   background-repeat: no-repeat;
@@ -27,6 +31,7 @@ nav{
   background-color: #333;
   border-bottom-style: solid;
   color: #111;
+ 
 }
 /*Set Footer CSS*/
 footer{
@@ -34,9 +39,9 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  bottom: 0;
-  left: -12px;
-  right:-12px;
+  width:100%;
+  bottom: 0px;
+top:auto;
 
   border-top-style: solid;
   color: #FFF;
@@ -77,10 +82,10 @@ footer p{
   list-style-type: none;
   margin: 0;
   padding-left: 50px;
-  overflow: hidden;
+  display: inline-block;
 }
 #Thumbnail li{
-  float:right
+  float:right;
 }
 #Thumbnail :hover{
   opacity: 80%;
@@ -89,42 +94,34 @@ footer p{
 .thumbnailsgit{
 width: 50px;
 height:50px;
+
 }
 .thumbnailslink{
   width: 45px;
   height:45px;
   margin-top: 10%;
   }
-/*set background image properties*/
-body{
-  text-align: center;
-  color: black;
-  background-color: #FFF;
-
-}
 
 /****************individual pages css*******************/
 .pageBody{
   position: absolute;
 }
 /*Home Page*/
-.image-responsive{
+.img-responsive{
   object-fit:contain;
   width: 50%;
-  height:100%;
-  border-radius: 50px;
+  height:75%;
+  border-radius: 10px;
   float:left;
+  margin-top: 75px;
   margin-left: 200px;
   margin-right: 200px;
 }
-#quickAbout{
-  margin-top: 150px;
-  font-size:1.2em;
-  padding: 10px;
-}
+
 #quickAboutContent{
   font-family: 'Fjalla One',sans-serif;
   margin-right: 25%;
+  margin-top: 150px;
 }
 /*About Page*/
 #ImgGal{
@@ -144,8 +141,7 @@ body{
   display:inline-block;
   color: #FFF;
   background-color: #333;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin:30px;
 }
 .card h5{
   padding:10px;
