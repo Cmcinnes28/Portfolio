@@ -4,18 +4,21 @@ body{
   text-align: center;
   color: black;
   background-color: #FFF;
-  font-family: Verdana, Tahoma, sans-serif;
+  /*Main Secondary Font Style*/
+  font-family: 'Noto sans', sans-serif;
+  /* Possible Backup Secondary Font Style
+  font-family: 'lato', sans-serif ;*/
   overflow-x: hidden;
 }
 h1{
+ /*Main Font Style*/
   font-family: 'Fjalla One',sans-serif;
+ /*Possible Backup Font Style
+   font-family: 'Pacifico', 'Trebuchet MS' ,sans-serif;*/
   font-size: 5vw;
   padding:20px;
   letter-spacing: 10px;
 }
-
-
-
 /************Navigation CSS*************/
 nav{
   position:relative;
@@ -119,7 +122,6 @@ height:50px;
 }
 
 #quickAboutContent{
-  font-family: 'Fjalla One',sans-serif;
   margin-right: 25%;
   margin-top: 150px;
 }
