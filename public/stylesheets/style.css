@@ -65,7 +65,9 @@ footer p{
   float:left;
 }
 .pagelinks{
-  font-size: 12px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   display: inline-block;
   color: white;
   text-align: center;
@@ -125,6 +127,12 @@ height:50px;
   margin-right: 25%;
   margin-top: 150px;
 }
+#skills{
+  font-size: 1.25vw;;
+}
+#skills span{
+  padding-right: 30px;
+}
 /*About Page*/
 #ImgGal{
   display: flex;
@@ -133,6 +141,12 @@ height:50px;
 }
 .thumbnail{
   flex: 0 0 auto;
+}
+
+#aboutMyself p{
+  width: 75%;
+  padding:25px;
+  margin:auto;
 }
 /**Projects**/
 #projectcontainer{
