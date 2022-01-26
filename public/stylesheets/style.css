@@ -9,12 +9,12 @@ body{
   /* Possible Backup Secondary Font Style
   font-family: 'lato', sans-serif ;*/
   overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
 }
 h1{
  /*Main Font Style*/
   font-family: 'Fjalla One',sans-serif;
- /*Possible Backup Font Style
-   font-family: 'Pacifico', 'Trebuchet MS' ,sans-serif;*/
   font-size: 5vw;
   padding:20px;
   letter-spacing: 10px;
@@ -37,15 +37,19 @@ nav{
  
 }
 /*Set Footer CSS*/
+/*Leave space for footer*/
+#contentWrap{
+padding-bottom: 2.5rem;
+}
 footer{
   background-image: url("../images/backgroundMain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
-  width:100%;
-  bottom: 0px;
-top:auto;
-
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;  
   border-top-style: solid;
   color: #FFF;
 }
@@ -115,20 +119,21 @@ height:50px;
 .img-responsive{
   object-fit:contain;
   width: 50%;
-  height:75%;
+  height:85%;
   border-radius: 10px;
   float:left;
-  margin-top: 75px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-top: 50px;
+  margin-left: 40%;
 }
 
 #quickAboutContent{
-  margin-right: 25%;
-  margin-top: 150px;
+  width: 75%;
+  margin-top: 100px;
+  margin-right: 50%;
 }
 #skills{
-  font-size: 1.25vw;;
+  padding-top: 75px;
+  font-size:1.25vw;
 }
 #skills span{
   padding-right: 30px;
@@ -138,6 +143,8 @@ height:50px;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  width: 75%;
+  margin:auto;
 }
 .thumbnail{
   flex: 0 0 auto;
@@ -149,10 +156,6 @@ height:50px;
   margin:auto;
 }
 /**Projects**/
-#projectcontainer{
- text-align: center;
- padding:20px;
-}
 .card{
   display:inline-block;
   color: #FFF;
@@ -160,12 +163,15 @@ height:50px;
   margin:30px;
 }
 .card h5{
-  padding:10px;
+  padding:8px;
+}
+.card a{
+  padding-bottom: 8px;
 }
 #contractbtn{
 visibility:hidden;
 }
-/*Contact*/
+/*Contact*/ 
 
 .formItem{
   display: block;
